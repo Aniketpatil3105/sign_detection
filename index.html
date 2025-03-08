@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Sign Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Sign Language Translator</h1>
+        <p>Translate sign language gestures to text in real time.</p>
+    </header>
+
+    <main>
+        <section class="instructions">
+            <h2>How It Works</h2>
+            <p>Use your webcam to perform sign language gestures, and this tool will translate them into text!</p>
+        </section>
+
+        <section class="translator">
+            <div class="video-container">
+                <video id="webcam" autoplay></video>
+                <div id="gestureOutput" class="output-text">Your sign will appear here...</div>
+            </div>
+
+            <button id="startButton">Start Translation</button>
+            <button id="stopButton">Stop Translation</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by AI & Machine Learning</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
